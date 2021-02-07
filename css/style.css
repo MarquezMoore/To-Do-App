@@ -41,6 +41,8 @@ body {
 
 .list-input-container h1 {
   margin: 0 0 50px 0;
+  font-size: 2.5rem;
+  color: #272423ff;
 }
 
 .list-input-container .list-input {
@@ -103,6 +105,10 @@ body {
 .list-input-container .list-input img:hover {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
+}
+
+.list-input-container .list-input .error-msg {
+  color: black;
 }
 
 .list-container {
